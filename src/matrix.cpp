@@ -4,7 +4,13 @@
 int main()
 {
 	Print print;
-	Value val;
+	Value value;
+	
+	value.setFlag (1);
+	cout << value.getFlag() << endl;
+	
+	value.setValue();
+	cout << value.getValue() << endl;
 	
 }
 

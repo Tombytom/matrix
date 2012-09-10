@@ -8,8 +8,12 @@ private:
 	int flag; // 0: '0', 1: '1', -1: ' ' (hidden)
 	
 public:
-	int setFlag(int flag);
+	void setFlag (int flag);
 	int getFlag();
+	
+	void setValue();
+	char getValue();
+	
 	
 	// Constructor
 	Value();
