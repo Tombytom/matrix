@@ -11,9 +11,10 @@ public:
 	void setFlag (int flag);
 	int getFlag();
 	
-	void setValue();
+	void createValue (int flag);
 	char getValue();
 	
+	int randomFlag (int seed);
 	
 	// Constructor
 	Value();
